@@ -1,0 +1,40 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  --primary : rgb(106, 103, 255);
+}
+
+.container h1{
+  text-align: center;
+  color: var(--primary);
+}
+.contact li{
+  list-style: none;
+  
+}
+.heading{
+  color: var(--primary);
+}
+.email{
+  color: var(--primary);
+}
+
+span{
+  font-weight: 300;
+}
+.sub-header{
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.skills{
+  display: flex;
+  gap:100px;
+}
+
+.reference{
+  display: flex;
+  gap:100px;
+}
+.reference li{
+  list-style: none;
+}
